@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+body {
+  text-align: center;
+  color: white;
+  background-color: background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body.hot  {
+	background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body.warm {
+	background: #F09819;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body.mild {
+	background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body.cold {
+background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body.freezing {
+	background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ui.basic.button {
+  font-family: 'Luckiest Guy', cursive;
+  color: #e03997!important;
+  border: white solid 5px;
+  height: 10.750em;
+  width: 10.750em;
+  border-radius: 150px;
+  padding-top: 2em;
+}
+h1, h3 {
+  font-family: 'Kaushan Script', cursive;
+}
+h1 {
+  font-size: 600%; 
+  padding-top: 1em;
+}
+h3 {
+ font-size: 300%;
+ color: #e03997!important;
+}
